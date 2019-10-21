@@ -30,8 +30,8 @@
                 <div class="info">An email has been to zexjulizrizh544@gmail.com with a link to verify your account.
                     If you have not received the email after a few minutes, please check your spam folder</div>
                 <div class="buttons">
-                    <button type="button" class="resend button">Resend email</button>
-                    <a href="#" class="support button">Contact support</a>
+                    <button type="button" class="resend button">Resend Email</button>
+                    <a href="#" class="support button">Contact Support</a>
                 </div>
             </div>
 
