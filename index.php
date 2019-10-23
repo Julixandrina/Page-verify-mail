@@ -11,11 +11,11 @@
     <script> </script>
 </head>
 <body>
+    <div class="backdrop-grid-container">
+        <div class="left-part"></div>
+        <div class="right-part"></div>
+    </div>
     <div class="page-verify">
-        <div class="backdrop-grid-container">
-            <div class="left-part"></div>
-            <div class="right-part"></div>
-        </div>
         <div class="container">
             <div class="main-block">
                 <a class="back-arrow" href="#">

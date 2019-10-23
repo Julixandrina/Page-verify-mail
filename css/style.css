@@ -2,8 +2,11 @@
 html {
     height: 100%;
 }
-body {  
+body {
     height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .main-font {
     font-family: 'Karla', sans-serif;
@@ -11,17 +14,19 @@ body {
     font-weight: 400;*/
 }
 .page-verify {
-    height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
+    position: relative;
+    padding: 20px;
+    width: 100%;
 }
 .backdrop-grid-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    position: absolute;
+    position: fixed;
     width: 100%;
-    height: 100%;
+    height: 100vh;
 
     /*Alternative background without grid*/
     background-image: linear-gradient(90deg,
@@ -39,7 +44,6 @@ body {
     width: 100%;
     justify-content: center;
     z-index: 2;
-    margin: 20px;
     max-width: 1140px;
     min-width: 230px;
 }
@@ -132,13 +136,13 @@ a.contact-support:hover {
 a.contact-support:active {
     background-color: rgb(46, 71, 142);
 }
-@media (max-width: 548px) {
-
-}
-    @media (max-width: 650px) {  
-    .page-verify {
+@media (max-width: 800px) {
+    body {
         align-items: flex-start;
     }
+}
+    @media (max-width: 650px) {
+
     .main-block {
         grid-template-columns: 10% 1fr 10%;
         grid-template-rows: 35px 1fr 10%;
@@ -171,6 +175,7 @@ a.contact-support:active {
     a.contact-support {
         justify-self: stretch;
     }
+
 }
 
 
