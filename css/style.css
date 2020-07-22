@@ -14,8 +14,7 @@ body {
 .page-verify {
     display: flex;
     z-index: 4;
-
-    padding: 20px;
+    padding: 30px;
 
 }
 .backdrop-grid-container {
@@ -47,10 +46,7 @@ body {
     background-color: rgb(255, 255, 255);
     width: 100%;
     border-radius: 35px;
-    display: grid;
-    grid-template-columns: 10% 1fr 10%;
-    justify-items: center;
-    padding: 60px 0;
+    padding: 20px 20px;
 }
 a.back-arrow {
     width: 35px;
@@ -135,24 +131,7 @@ a.contact-support:hover {
 a.contact-support:active {
     background-color: rgb(46, 71, 142);
 }
-@media (max-width: 800px) {
-    body {
-        align-items: flex-start;
-    }
-}
 @media (max-width: 650px) {
-
-    .main-block {
-        grid-template-columns: 10% 1fr 10%;
-        grid-template-rows: 35px 1fr 10%;
-        padding: 30px 0 60px;
-    }
-    .back-arrow {
-        grid-area: 1 / 2 / 1 / 2;
-    }
-    .info-content {
-        grid-area: 2 / 2 / 2 /3;
-    }
     .message {
         margin-top: 30px;
     }
