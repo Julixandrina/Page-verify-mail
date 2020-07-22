@@ -2,21 +2,21 @@ html {
     height: 100%;
 }
 body {
-    height: 100%;
+
     display: flex;
     justify-content: center;
-    align-items: center;
+
+
 }
 .main-font {
     font-family: 'Karla', sans-serif;
 }
 .page-verify {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
+    z-index: 4;
+
     padding: 20px;
-    width: 100%;
+
 }
 .backdrop-grid-container {
     display: grid;
